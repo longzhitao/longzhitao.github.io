@@ -167,9 +167,9 @@ A^* &= \{\varepsilon,a,b,aa,ab,ba,bb,aaa,aab,...\}
 &A \to \alpha_n \\
 \end{align}</script><p>我们将其缩写为$A\to \alpha_1|\alpha_2…|\alpha_n$</p>
 <h4 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h4><p>以一个英文句子为例： <strong>The grey wolf will eat the goat </strong> </p>
-<p><img alt data-src="/2019/11/23/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Code\Blog\source\_posts\编译原理\sentence.jpg" class="lazyload"></p>
+<p><img alt data-src="/2019/11/23/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/sentence.jpg" class="lazyload"></p>
 <p>句子的组成规则如下：</p>
-<p><img alt="rules" data-src="/2019/11/23/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Code\Blog\source\_posts\编译原理\rules.jpg" class="lazyload"></p>
+<p><img alt="rules" data-src="/2019/11/23/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/rules.jpg" class="lazyload"></p>
 <p>对于这个句子的简单文法，我们形式化表示如下：</p>
 <script type="math/tex; mode=display">
 \begin{align}
@@ -179,7 +179,7 @@ V_B=\{&<句子>,<主语>,<谓语>,<冠词>,<形容词>,<名词>,\\
 P\ =\{&<句子>\to <主语><谓语>...\}\\
 S\ =<&句子>
 \end{align}</script><h2 id="语言的形式定义"><a href="#语言的形式定义" class="headerlink" title="语言的形式定义"></a>语言的形式定义</h2><h3 id="推导"><a href="#推导" class="headerlink" title="推导"></a>推导</h3><p>当文法已知时候，为了确定文法所定义的语言，我们引进推导的概念。</p>
-<h4 id="直接推导"><a href="#直接推导" class="headerlink" title="直接推导"></a>直接推导</h4><p>如上一个<a href="####例子">例子</a>，我们采用最右推导</p>
+<h4 id="直接推导"><a href="#直接推导" class="headerlink" title="直接推导"></a>直接推导</h4><p>如上一个<a href="#例子">例子</a>，我们采用最右推导</p>
 <script type="math/tex; mode=display">
 \begin{align}
 S &\Rightarrow <句子> \\
